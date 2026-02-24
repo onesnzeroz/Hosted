@@ -1,26 +1,27 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Onesandzeros Enterprise Solutions</title>
-  <meta name="description" content="Enterprise technology strategy, cyber resilience, and digital operations by Onesandzeros Enterprise Solutions." />
+  <title>Onesandzeros Enterprise Solutions | Enterprise Technology Advisory</title>
+  <meta name="description" content="Enterprise technology strategy, cyber resilience, and digital transformation delivery for global organizations." />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <div class="loader" id="loader" aria-hidden="true">
     <div class="loader__ring"></div>
-    <p>Preparing secure enterprise experience...</p>
+    <p>Preparing enterprise experience...</p>
   </div>
 
   <header class="topbar" id="top">
     <div class="container topbar__inner">
       <a href="#top" class="brand">Onesandzeros Enterprise Solutions</a>
-      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav">â˜°</button>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav">☰</button>
       <nav id="primaryNav" class="nav">
-        <a href="#home" class="nav__link active">Home</a>
-        <a href="#about" class="nav__link">About</a>
-        <a href="#services" class="nav__link">Services</a>
+        <a href="#home" class="nav__link active">Overview</a>
+        <a href="#capabilities" class="nav__link">Capabilities</a>
+        <a href="#outcomes" class="nav__link">Outcomes</a>
+        <a href="#insights" class="nav__link">Insights</a>
         <a href="#contact" class="nav__link">Contact</a>
       </nav>
     </div>
@@ -30,81 +31,112 @@
     <section class="hero section" id="home">
       <div class="container hero__grid">
         <div class="hero__content reveal">
-          <p class="eyebrow">Enterprise Technology Leadership</p>
-          <h1>Future-ready digital operations with uncompromising professionalism.</h1>
+          <p class="eyebrow">Global Enterprise Advisory</p>
+          <h1>Strategic technology leadership for resilient, high-performance enterprises.</h1>
           <p class="lede">
-            Founded and led by <strong>Eamon Duffy</strong> (Founder, CTO, CIO, President),
-            we help enterprises modernize, secure, and scale with Fortune-500 execution standards.
+            We partner with C-suites to modernize digital platforms, elevate cyber resilience,
+            and deliver measurable value across complex, regulated environments.
           </p>
           <div class="hero__actions">
-            <button class="btn btn--primary" id="scrollToServices">Explore Solutions</button>
-            <button class="btn btn--ghost" id="openLeadershipModal">Leadership Vision</button>
+            <button class="btn btn--primary" id="scrollToCapabilities">Explore Capabilities</button>
+            <button class="btn btn--ghost" id="openLeadershipModal">Leadership Perspective</button>
           </div>
           <div class="hero__actions hero__actions--secondary">
-            <button class="btn btn--primary" id="downloadRootCA">Download RootCA</button>
-            <a class="btn btn--ghost" href="pages/pong.html">Entertain me</a>
+            <button class="btn btn--primary" id="downloadRootCA">Download Root Certificate</button>
+            <a class="btn btn--ghost" href="pages/pong.html">Executive reset</a>
           </div>
         </div>
-        <div class="hero__visual reveal reveal--delay">
-          <svg viewBox="0 0 560 420" role="img" aria-label="Enterprise network visualization" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stop-color="#3f78d9" />
-                <stop offset="100%" stop-color="#1f4fa6" />
-              </linearGradient>
-            </defs>
-            <rect x="20" y="20" width="520" height="380" rx="20" fill="#f3f7ff" stroke="#d3deef"/>
-            <circle cx="130" cy="110" r="42" fill="url(#g1)" opacity="0.9"/>
-            <circle cx="280" cy="85" r="30" fill="#89a8de"/>
-            <circle cx="420" cy="135" r="46" fill="#2f63c2"/>
-            <circle cx="190" cy="290" r="48" fill="#3a74d0"/>
-            <circle cx="360" cy="280" r="58" fill="#1f4fa6"/>
-            <path d="M130 110 L280 85 L420 135 L360 280 L190 290 Z" fill="none" stroke="#94afda" stroke-width="6" stroke-linecap="round" stroke-dasharray="12 12"/>
-            <rect x="70" y="334" width="420" height="40" rx="10" fill="#e6effd"/>
-            <text x="85" y="360" font-size="18" fill="#224a93" font-family="Segoe UI, Arial">Connected Intelligence â€¢ Secure Infrastructure â€¢ Measurable Outcomes</text>
-          </svg>
+        <div class="hero__panel reveal reveal--delay" aria-label="Operating model highlights">
+          <h2>Operating model</h2>
+          <ul>
+            <li>Board-aligned technology strategy and investment governance</li>
+            <li>Zero-trust cyber controls integrated into digital delivery</li>
+            <li>Data-driven operations with executive KPI visibility</li>
+          </ul>
+          <div class="kpi-grid">
+            <article>
+              <h3 class="kpi" data-kpi="98">0</h3>
+              <p>Program delivery predictability</p>
+            </article>
+            <article>
+              <h3 class="kpi" data-kpi="42">0</h3>
+              <p>Reduction in critical-risk exposure</p>
+            </article>
+            <article>
+              <h3 class="kpi" data-kpi="31">0</h3>
+              <p>Operational cost optimization</p>
+            </article>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section section--alt" id="about">
-      <div class="container reveal">
-        <h2>About Onesandzeros Enterprise Solutions</h2>
-        <p>
-          We deliver executive-grade technology strategy, cloud modernization, cyber resilience,
-          and enterprise architecture that aligns with board-level priorities and regulatory requirements.
-        </p>
-        <p>
-          Under Eamon Duffy's leadership, our operating model combines strategic clarity,
-          cross-functional governance, and disciplined execution.
-        </p>
+    <section class="section trust-band reveal" aria-label="Client trust indicators">
+      <div class="container trust-band__inner">
+        <span>Trusted by teams across:</span>
+        <strong>Financial Services</strong>
+        <strong>Healthcare & Life Sciences</strong>
+        <strong>Public Sector</strong>
+        <strong>Manufacturing</strong>
       </div>
     </section>
 
-    <section class="section" id="services">
+    <section class="section section--alt" id="capabilities">
       <div class="container">
-        <h2 class="reveal">Services & Solutions</h2>
+        <h2 class="reveal">Core capabilities</h2>
         <div class="cards">
           <article class="card reveal">
             <h3>Enterprise Architecture</h3>
-            <p>Blueprint and govern scalable systems that support long-term business growth.</p>
+            <p>Align platforms, business processes, and governance with multi-year strategic objectives.</p>
           </article>
           <article class="card reveal reveal--delay">
-            <h3>Cybersecurity & Trust</h3>
-            <p>Integrate zero-trust practices, certificate governance, and secure operational controls.</p>
+            <h3>Cyber Resilience</h3>
+            <p>Strengthen defenses with identity-centric security, certificate governance, and proactive controls.</p>
           </article>
           <article class="card reveal reveal--delay-2">
             <h3>Digital Operations</h3>
-            <p>Transform service reliability, observability, and IT performance with measurable KPIs.</p>
+            <p>Improve reliability and service quality through observability, automation, and SRE discipline.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section section--alt" id="contact">
+    <section class="section" id="outcomes">
+      <div class="container outcomes reveal">
+        <div>
+          <h2>Business outcomes</h2>
+          <p>Our programs focus on tangible impact for stakeholders, regulators, and customers.</p>
+        </div>
+        <ul>
+          <li>Accelerated modernization roadmaps tied to financial objectives</li>
+          <li>Improved audit readiness and risk posture across critical systems</li>
+          <li>Higher service availability and incident response maturity</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="insights">
+      <div class="container">
+        <h2 class="reveal">Executive insights</h2>
+        <div class="insight-grid">
+          <article class="insight reveal">
+            <p class="insight__tag">Perspective</p>
+            <h3>Why operating model clarity outperforms ad-hoc transformation</h3>
+            <p>How leading enterprises de-risk modernization through governance and capability sequencing.</p>
+          </article>
+          <article class="insight reveal reveal--delay">
+            <p class="insight__tag">Cyber</p>
+            <h3>From compliance to continuous resilience</h3>
+            <p>Build security into every release without slowing product or service delivery.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
       <div class="container reveal">
-        <h2>Contact</h2>
-        <p>Send a message to begin a strategic technology conversation.</p>
+        <h2>Contact us</h2>
+        <p>Start a strategic conversation with our leadership team.</p>
         <form id="contactForm" class="contact-form" novalidate>
           <label>
             Full Name
@@ -115,10 +147,14 @@
             <input type="email" name="email" required />
           </label>
           <label>
+            Organization
+            <input type="text" name="organization" required />
+          </label>
+          <label>
             Message
             <textarea name="message" rows="5" required></textarea>
           </label>
-          <button type="submit" class="btn btn--primary">Send Message</button>
+          <button type="submit" class="btn btn--primary">Submit Inquiry</button>
           <p id="formStatus" class="form-status" aria-live="polite"></p>
         </form>
       </div>
@@ -127,7 +163,7 @@
 
   <footer class="footer">
     <div class="container footer__inner">
-      <p>Â© <span id="year"></span> Onesandzeros Enterprise Solutions â€¢ All rights reserved.</p>
+      <p>© <span id="year"></span> Onesandzeros Enterprise Solutions. All rights reserved.</p>
       <div class="socials" aria-label="Social media links">
         <a href="#" aria-label="LinkedIn">
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 8h4v12H6zM8 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm5 6h4v2c.7-1.2 2-2.1 3.8-2.1 3 0 4.2 2 4.2 5.1V20h-4v-6.2c0-1.6-.6-2.7-2.1-2.7-1.1 0-1.8.8-2.1 1.6-.1.2-.1.6-.1 1V20h-4z"/></svg>
@@ -135,22 +171,19 @@
         <a href="#" aria-label="X">
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.2 2H21l-6.4 7.3L22 22h-5.8l-4.5-6-5.2 6H3.7l6.8-7.8L2 2h5.9l4.1 5.5zM17.1 20h1.6L7 3.9H5.3z"/></svg>
         </a>
-        <a href="#" aria-label="Email">
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2 5h20v14H2zm2 2v.2l8 5.8 8-5.8V7l-8 5.7z"/></svg>
-        </a>
       </div>
     </div>
   </footer>
 
   <div class="modal" id="leadershipModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="leadershipTitle">
     <div class="modal__dialog">
-      <button class="modal__close" id="closeLeadershipModal" aria-label="Close">Ã—</button>
-      <h3 id="leadershipTitle">Leadership Vision</h3>
+      <button class="modal__close" id="closeLeadershipModal" aria-label="Close">×</button>
+      <h3 id="leadershipTitle">Leadership perspective</h3>
       <p>
-        "Enterprise transformation succeeds when strategy, security, and execution move as one.
-        At Onesandzeros Enterprise Solutions, we build systems designed for confidence at scale."
+        "High-performing enterprises win when strategy, security, and execution are orchestrated as one system.
+        That is the standard we bring to every engagement."
       </p>
-      <p><strong>â€” Eamon Duffy, Founder / CTO / CIO / President</strong></p>
+      <p><strong>— Eamon Duffy, Founder / CTO / CIO / President</strong></p>
     </div>
   </div>
 
